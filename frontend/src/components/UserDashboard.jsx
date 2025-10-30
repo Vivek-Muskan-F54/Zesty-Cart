@@ -15,7 +15,7 @@ function UserDashboard() {
   const cateScrollRef=useRef()
   const shopScrollRef=useRef()
   const navigate=useNavigate()
-  const [showLeftCateButton,setShowLeftCateButton]=useState(false)
+  const [showLeftCateButton, setShowLeftCateButton]=useState(false)
   const [showRightCateButton,setShowRightCateButton]=useState(false)
    const [showLeftShopButton,setShowLeftShopButton]=useState(false)
   const [showRightShopButton,setShowRightShopButton]=useState(false)
